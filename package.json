@@ -1,0 +1,24 @@
+{
+  "name": "readme-demo-generator",
+  "version": "0.1.0",
+  "description": "Inject demo sections and screenshot references into README files.",
+  "type": "module",
+  "bin": {
+    "readme-demo": "./bin/readme-demo.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/readme-demo.js"
+  },
+  "keywords": [
+    "developer-tools",
+    "ai",
+    "cli",
+    "github"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
